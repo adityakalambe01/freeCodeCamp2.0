@@ -111,6 +111,7 @@ body::-webkit-scrollbar {
     background: url('https://www.freecodecamp.org/static/landing-page-b-fbde8347137e86f06699459f3afdbce1.svg');
     background-size: cover;
     background-repeat: no-repeat;
+    width: 90%;
 }
 
 
