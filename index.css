@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+.header{
+    max-height: 100vh;
+}
+/* Navbar */
+#desk-nav{
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.345);
+    padding: 10px;
+    position: fixed;
+}
+#desk-nav div{
+    margin-left: 10px;
+}
+
+#menu ul{
+    display: flex;
+    list-style-type: none;
+}
+#menu ul li{
+    margin-right: 20px;
+}
+
+#menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+#logo-title{
+    flex: 1;
+    font-weight: bolder;
+
+}
+
+/* #logo-title span:last-child{
+    font-size: 20px;
+    margin-bottom: -20px;
+} */
+
+#language-translator{
+    width: 100px;
+    /* border-color: transparent; */
+}
+#language-translator:focus{
+    /* outline: none;
+    border: none; */
+}
+
+#Language{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: inherit;
+}
+
+
+#auth #sign-in{
+    background-color: transparent;
+    border: none;
+}
+
+#auth #sign-in i{
+    font-size: 20px;
+}
+
+
+
+.hero{
+    background: linear-gradient(#e500a4,#a100f2);
+    min-height: 100vh;
+}
+
+
+.hero-row-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.hero-col{
+    width: 50%;
+    height: 500px;
+    /* border: 3px solid red; */
+}
+
+.hero-col-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-col-img{
+    background: url('https://www.freecodecamp.org/static/landing-page-b-fbde8347137e86f06699459f3afdbce1.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+/* Utility class */
+.border{
+    border: 2px dotted blue;
+}
+
+
